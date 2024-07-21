@@ -1,5 +1,5 @@
 #include "includes.h"
-using main_t = unsigned(__stdcall*)(void*);
+using main_t = unsigned( __stdcall* )( void* );
 
 std::uint32_t __stdcall main( HINSTANCE module ) 
 {
